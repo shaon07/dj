@@ -1,0 +1,375 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.topmenu
+{
+	background: #F1F1F1;
+	padding-top: 0%;
+}
+.navdot
+{
+	width: 20px;
+	height: 3px;
+	background: #DD1A74;
+	margin-top: 4px;
+}
+.rightSec
+{
+	width: 60%;
+}
+.toprow
+{
+	padding: 1% 0;
+}
+.topnumber {
+    color: gray;
+    text-decoration: none;
+}
+.topmail {
+    color: gray;
+    text-decoration: none;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #DD1A74;
+  color: white;
+}
+
+.fa-twitter {
+  background: #DD1A74;
+  color: white;
+}
+
+.fa-google {
+  background: #DD1A74;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #DD1A74;
+  color: white;
+}
+
+.fa-youtube {
+  background: #DD1A74;
+  color: white;
+}
+
+.fa-instagram {
+  background: #DD1A74;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #DD1A74;
+  color: white;
+}
+
+				
+				/*header img*/
+.navbarImg
+{
+	width: 6rem;
+}
+.nav-link
+{
+	color: black !;
+}
+				/*header img end*/
+
+				/*carousel*/
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ .carousel-caption
+ {
+ 	padding: 10% 0 !important;
+ }
+  .caroText1
+ {
+ 	text-transform: uppercase;
+ }
+ .caroText2
+ {
+ 	font-size: 3.5rem;
+ 	text-transform: uppercase;
+ }
+ .bodysoul
+ {
+ 	color: #A2238E;
+ }
+ .bookbtncolor
+ {
+ 	background: white !important;
+ 	transition: .5s;
+ }
+  .bookbtncolor:hover
+  {
+  	opacity: .90;
+  }
+				/*carousel end*/
+
+				/*nency sec*/
+.nencytext
+{
+	padding: 100px 0 50px;
+}
+.nencydex
+{
+	padding-top: 2rem;
+}
+.dailra
+{
+	color: #A2238E;
+}
+.sndbtn
+{
+	border: 2px solid #EEEEEE !important;
+	border-radius: 5px !important;
+}
+.sndbtn:hover
+{
+	background: #ccc !important;
+}
+.dailrasms
+{
+	margin-top: 50px !important;
+}
+
+				/*nency sec end*/
+
+				/*counter sec*/
+.counterBG
+{
+	background: url("img/divider-home-massage-parallax.jpg") no-repeat;
+}
+.chartIC
+{
+	font-size: 45px;
+	margin-top: 10px !important;
+	color: white;
+}
+.counterNM
+{
+	color: #a2238e  !important;
+	font-size: 3rem !important;
+	padding-left: 32px;
+}
+.countertext
+{
+	color: white;
+	font-family: popins;
+	padding-left: 32px;
+}
+.counterskin
+{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.counterskin::before
+{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.30);
+}
+.themecolor
+{
+	color: #a2238e  !important;
+}
+.font-dancing {
+    font-family: 'Dancing Script',cursive;
+}
+				/*counter sec end*/
+
+				/*post sec*/
+.postbox
+{
+	overflow: hidden !important;
+}
+.postimg
+{
+	transition: .5s;
+	    margin-left: 4px;
+    transform: scale(1.5);
+}
+.postimg:hover
+{
+	transform: scale(1.6);
+}
+.mainpost
+{
+	margin-top: 20px;
+	font-style: 20px;
+}
+.postTitle
+{
+	
+	color: black;
+	font-weight: 500;
+}
+.postTitle:hover
+{
+	color: black !important;
+}
+.postcolumn
+{
+	border:1px solid gray;
+}
+				/*post sec end*/
+
+				/*testimonial*/
+.testimonial
+{
+	background: url("https://nancy-spa.com/images/parallax/Testimonials-massage-parallax.jpg") no-repeat;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.testimonial::before
+{
+	position: absolute;
+	content: "";
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.40);
+}
+.testitext
+{
+	visibility: hidden;
+}
+				/*testimonial end*/
+
+				/*footer 1*/
+.footerheading
+{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer1BG
+{
+	background: #222222;
+}
+.grayText
+{
+	color: #808080 !important;
+}
+.footerheading i a:hover
+{
+	color: #808080 !important;
+}
+.footerbtn
+{
+	background: #a2238e !important;
+	/*border: 1px solid #a2238e !important;*/
+	margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.footerbtn:hover
+{
+	background: #B2862E !important;
+	border:1px solid #B2862E;
+}
+.footerservice
+{
+	position: relative;
+	top:0;
+}
+.footerdash
+{
+	border-bottom: 4px solid #a2238e;
+	padding-top: 5px;
+	line-height: 2.01;
+
+}
+.footerpost
+{
+	color: #808080;
+	transition: .5s;
+	
+}
+.footerpost:hover
+{
+	color: #a2238e !important;
+}
+.ddd
+{
+	border-bottom: 1px dashed #404040;
+	padding-bottom: 12px !important;
+}
+.footerwid
+{
+	overflow: hidden !important; 
+}
+.footerwidimg
+{
+	transition: .5s;
+}
+.footerwidimg:hover
+{
+	transform: scale(1.2);
+}
+.footerposttit
+{
+	font-size: 13px;
+	padding-left: 10px;
+	color: #808080;
+	transition: .5s;
+}
+.footerposttit:hover
+{
+	color: #a2238e !important;
+}
+.footerdate
+{
+	color: #808080;
+	padding-left: 10px;
+}
+.footerdex
+{
+	color: #808080;
+	font-size: 14px;
+}
+.endfooter
+{
+	background: #333333;
+}
+.copyright
+{
+	color: #808080 !important;
+	font-size: 14px;
+}
+.footersite
+{
+	font-size: 14px !important;
+	color: #808080;
+}
+.footerright
+{
+	width: 50%;
+}
+.footerleft
+{
+	width: 50%;
+}
+			/*footer 1 end*/
